@@ -8,8 +8,9 @@ module.exports = {
   description: '这是我的第一个 VuePress 站点',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
+    repo: 'vuejs/vuepress',
+    searchMaxSuggestions: 10,
     sidebar: [
-      // SidebarItem
       {
         text: 'javascript',
         link: '/javascript/',
@@ -20,11 +21,11 @@ module.exports = {
       },
       {
         text: '网络',
-        link: '/http && https/',
+        link: '/http/',
       },
       {
         text: 'CSS',
-        link: '/http && https/',
+        link: '/css/',
       }
     ],
   },
